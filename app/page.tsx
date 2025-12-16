@@ -115,16 +115,17 @@ export default function Home() {
 
   function init() {
     trace("init");
-    fetch(flogViewerVersionUrl).then(response => response.text()).then(data => {
-      const regex = /AssemblyFileVersion\("?(.*)"\)/;
-      const extract = data.match(regex);
-      setLoading(false);
-      if (extract && extract.length === 2) {
-        flogViewerVersion = extract[1];
-        trace("flogViewerVersion: " + flogViewerVersion);
-        trace("loading: " + loading);
-      }
-    });
+    // fetch(flogViewerVersionUrl).then(response => response.text()).then(data => {
+    //   const regex = /AssemblyFileVersion\("?(.*)"\)/;
+    //   const extract = data.match(regex);
+    //   setLoading(false);
+    //   if (extract && extract.length === 2) {
+    //     flogViewerVersion = extract[1];
+    //     trace("flogViewerVersion: " + flogViewerVersion);
+    //     trace("loading: " + loading);
+    //   }
+    // });
+    setLoading(false);
   }
 
   useEffect(() => { init(); }, []); // Empty dependency array means this effect runs once on mount
