@@ -100,7 +100,7 @@ post https://$serviceName.search.windows.net/indexes/$indexName/docs/search?api-
 
 /* More Examples */
 // Getting fLogViewer current version
-get https://flogviewer.blob.core.windows.net/build/Version.cs
+get https://flogviewer2026.blob.core.windows.net/build/Version.cs
 put https://httpbin.org/delay/2
 delete https://httpbin.org/delay/2`,
     },
