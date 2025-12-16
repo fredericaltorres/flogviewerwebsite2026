@@ -11,8 +11,7 @@ import { Components } from 'react-markdown';
 
 var flogViewerExeUrl = "https://flogviewer2026.blob.core.windows.net/build/fLogViewer.exe";
 var flogViewerAiAssistantUrl = "https://flogviewer-ai-assistant.vercel.app/";
-//var flogViewerVersionUrl = "https://flogviewer2026.blob.core.windows.net/build/Version.cs";
-var flogViewerVersionUrl = "https://fvideostream2026.blob.core.windows.net/build/Version.cs";
+var flogViewerVersionUrl = "https://flogviewer2026.blob.core.windows.net/build/Version.cs";
 var flogViewerVersion = "Unknown";
 
 function trace(message: string) {
