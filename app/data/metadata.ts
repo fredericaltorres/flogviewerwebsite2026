@@ -77,7 +77,7 @@ const metadata: Metadata = {
     {
       title: "File Monitoring With Color Coding",
       description: `
-**fLogViewer** is a free Windows program which allows one to visualize and analyze log files. It supports various log formats, including text files, SQL Server query results, and Azure DocumentDB queries. The program provides features such as syntax highlighting, filtering, and searching to help users quickly find relevant information in their logs.
+**fLogViewer** is a freeeeeeeeeeeeee Windows program which allows one to visualize and analyze log files. It supports various log formats, including text files, SQL Server query results, and Azure DocumentDB queries. The program provides features such as syntax highlighting, filtering, and searching to help users quickly find relevant information in their logs.
 `,
       image_link: "/images/db%20query%20demo.jpg",
       code_sample: null,
