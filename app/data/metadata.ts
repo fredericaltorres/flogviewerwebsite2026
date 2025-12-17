@@ -9,7 +9,7 @@ const metadata: Metadata = {
 
   logo: "/images/fLogViewer.Logo.DALL-E.Animation.gif",
 
-  overview_header: `**fLogViewer** is a freeeeeeeeeeeeeeeeeeee Windows program which allows to visualize local 
+  overview_header: `**fLogViewer** is a free Windows program which allows to visualize local 
       text file content or script execution result of`,
 
   overview_image: "/images/multi%20type%20of%20log%20view%20demo.00.jpg",
